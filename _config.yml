@@ -1,0 +1,19 @@
+title:             dano.ai
+email:             dano@dano.ai
+description:       A Blog Theme by Start Bootstrap
+author:            dano.ai
+baseurl:           "/"
+url:               "https://blog.dano.ai"
+
+# Social Profiles
+# twitter_username:  SBootstrap
+github_username:   dano-ai
+# facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
